@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Calculator2"
         tools:targetApi="31">
         <activity
+            android:name=".DivisionActivity"
+            android:exported="false" />
+        <activity
             android:name=".MultiplyActivity"
             android:exported="false" />
         <activity
